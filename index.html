@@ -1,24 +1,47 @@
 <!DOCTYPE html>
 <html>
-<head>
-   
+  <head>
     <title>For You</title>
-    <link rel="stylesheet" type="text/css" href="menu.css">
-    
-</head>
- <body>
+    <link rel="stylesheet" type="text/css" href="menu.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
 
+      * {
+        font-family: "Nunito", sans-serif;
+      }
 
+      a {
+        color: white;
+        text-decoration: none;
+        transition: all 0.5s ease-in;
+      }
 
-  <ul>
-        <li> <a href="./inti/index.html">Selanjutnya</a></li>
-        <li> <a href="index.html">Menu</a></li>
-        
+      a:hover {
+        font-size: xx-large;
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li><a href="./inti/index.html">Selanjutnya</a></li>
     </ul>
- 
- <p>Hai kak Selamat Ulang tahun:)</p>
-    <p>Tekan Tulisan Selanjutnya</p>
-   
-  
-</body>
-</html>  
+
+    <div
+      style="
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        text-transform: uppercase;
+        text-align: center;
+        color: white;
+      "
+    >
+      <h1>Hai kak, Selamat Ulang tahun:)</h1>
+      <h2>
+        Tekan Tulisan
+        <a href="./inti/index.html"> Selanjutnya </a>
+      </h2>
+    </div>
+  </body>
+</html>
